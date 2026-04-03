@@ -190,6 +190,18 @@ h4 { font-size: var(--text-lg); font-weight: 600; }
 }
 .btn-nav:active { transform: translateY(0); }
 
+/* Resume download button — nav variant */
+.btn-nav-resume {
+  background: transparent;
+  color: var(--color-gold);
+  border: 1.5px solid var(--color-gold);
+  letter-spacing: 0.03em;
+}
+.btn-nav-resume:hover {
+  background: var(--color-gold);
+  color: var(--color-bg);
+}
+
 /* Hamburger */
 .hamburger {
   display: none;
